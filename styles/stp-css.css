@@ -14,48 +14,82 @@ body {
 	background-position:center;
 	margin-left:5rem;
 	margin-right:5rem;
+	/*opacity:0.9;*/
 }
 .name-header{
 	font-family: "Stardos Stencil";
+	color:white;
 	margin-top:2rem;
 	margin-bottom:2rem;
 	background-color:olive;
 	text-align:center;
-}
-.name-header img{
-	max-height:15vh;
-	max-width:10vw;
-	padding:1rem;
 }
 .navigation{
 	padding:1rem;
 	background-color:olive;
 }
 .home-main{
+	text-align: center;
 	background-color:olive;
+	margin-top:2rem;
+}
+
+.contact-main{
+	text-align: center;
+	background-color:olive;
+	margin-top:2rem;
 }
 .article-header{
+	font-family: "Stardos Stencil";
 	text-align:center;
 }
-.img-holder{
-	width:100%;
+h2{
+	color:white;
+}
+.main-photo{
+	background-color:olive;
+	padding-bottom: 2rem;
+	margin-top:2rem;
 }
 img{
-	padding:2rem;
-	background-color:olive;
-	margin:2rem;
+	padding-top:2rem;
+	margin-bottom:2rem;
 }
 footer{
-	position:fixed;
-	bottom:0;
+	margin-top:2rem;
+	margin-bottom:2rem;
+	background-color:olive;
+}
+aside{
+	margin-top:2rem;
+	background-color:olive;
+}
+.map{
+	max-height: 248px;
+}
+.main-foot *{
+	max-height: 186px
+}
+.address {
+	max-height: 250px;
+	text-align:center;
+	margin-top:2rem;
+}
+.social-media{
+	max-height: 250px;
+	text-align:center;
+	margin-top:2rem;
 }
 .address p{
-	margin:0;
-	font-size:1rem;
+	font-size:1.5rem;
+}
+.policy{
 	text-align:center;
+	background-color: olive;
+	margin-top:2rem;
+	margin-bottom: 2rem;
 }
 .policy p{
-	margin:0;
 	font-size:1rem;
-	text-align:center;
+	margin:0;
 }
